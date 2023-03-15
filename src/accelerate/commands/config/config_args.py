@@ -176,6 +176,7 @@ class ClusterConfig(BaseConfig):
     commands: List[str] = None
     tpu_vm: List[str] = None
     tpu_env: List[str] = None
+    tpu_cluster: str = None
 
     # args for dynamo
     dynamo_config: dict = None
